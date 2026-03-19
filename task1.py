@@ -10,3 +10,10 @@ for line in file:
 file.close()
 
 # Your code below — use the students list
+
+ST_NAME: int = 0
+ST_AGE: int = 1
+ST_CITY: int = 2
+
+for student in students:
+	print(f"{student[ST_NAME]} is {student[ST_AGE]}, and lives in {student[ST_CITY]}")
